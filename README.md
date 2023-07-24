@@ -21,7 +21,7 @@ In the dataset, all the categorical columns are encoded as numeric. The original
               5: 'Facto union',
               6: 'Legally separated'}`
 
-The next step is the cleaning of the data, which is done in [data_cleaning.ipynb](notebooks\data_cleaning.ipynb)
+The next step is the cleaning of the data, which is done in [data_cleaning.ipynb](notebooks/data_cleaning.ipynb)
 
 ## Data Cleaning
 
