@@ -71,3 +71,5 @@ In this notebook I trained different models and compare their performance. The f
 Web interface application that allows the user to introduce the values and get a dropout prediction
 
 ![gradio_app](images/gradio_interface.PNG)
+
+The app is depoyed in [**Hugging Face Spaces**](https://huggingface.co/spaces) and you can find it in [**this link**](https://huggingface.co/spaces/matiast1905/student_dropout_analysis)
