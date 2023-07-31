@@ -14,12 +14,14 @@ The data refer to records of students enrolled between the academic years 2008/2
 
 In the dataset, all the categorical columns are encoded as numeric. The original categories are not easily available in a file, but we can scrap them from [this website](https://valoriza.ipportalegre.pt/piaes/features-info-stats.html), this is done in the [web_scraper notebook](notebooks/web_scraper.ipynb). After scrapping, the results are storaged in a dictionary ([categorical_maps.pkl](data/categorical_maps.pkl)), where the keys are the column names of the original dataset and the values are also dictionaries containing the mappings for each category. Here is a sample of the first key-value of that dictionary:
 
-`'marital_status': {1: 'Single',
-              2: 'Married',
-              3: 'Widower',
-              4: 'Divorced',
-              5: 'Facto union',
+`'marital_status': {1: 'Single',  
+              2: 'Married',  
+              3: 'Widower',  
+              4: 'Divorced',  
+              5: 'Facto union',  
               6: 'Legally separated'}`
+
+**Note:** The scraped site change it's format after I made this project. The current site doesn't have the information I scrapped anymore. If you try to reproduce all the steps of the project you will have an error running the scraper notebook. You can still access this data in the [categorical_maps.pkl](data/categorical_maps.pkl) file.
 
 The next step is the cleaning of the data, which is done in [data_cleaning.ipynb](notebooks/data_cleaning.ipynb)
 
